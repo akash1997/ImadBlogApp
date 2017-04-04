@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cvMain"
+    android:foreground="?selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tvArticleName"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Article One" />
+
+</android.support.v7.widget.CardView>
